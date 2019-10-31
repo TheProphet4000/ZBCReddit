@@ -39,7 +39,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
 
         // Close statement
-        //$stmt->close();
+        $stmt->close();
     }
 
     // Validate password
@@ -85,7 +85,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
 
         // Close statement
-        //$stmt->close();
+        $stmt->close();
     }
 
     // Close connection
